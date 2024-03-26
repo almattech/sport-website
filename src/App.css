@@ -17,14 +17,14 @@ body {
 
 .Switch{
   position: fixed;
+  overflow: hidden;
+  padding: 1vh 50px;
   width: 80vw;
   background-color: white;
   box-shadow: 1px 1px 1px 1px rgba(225, 225, 225, 0.8);
-  padding: 3px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-bottom: 100px;
 }
 
 #light {
@@ -83,6 +83,7 @@ body {
 
 .Sports {
   display: flex;
+  padding-top: 80px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
