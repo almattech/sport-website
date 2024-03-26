@@ -7,7 +7,7 @@ import "./App.css";
 
 export const ThemeContext = createContext("light");
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"))
