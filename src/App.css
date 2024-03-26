@@ -17,6 +17,7 @@ body {
 
 .Switch{
   position: fixed;
+  margin: auto;
   overflow: hidden;
   padding: 1vh 50px;
   width: 80vw;
