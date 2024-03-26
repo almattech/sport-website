@@ -88,7 +88,8 @@ body {
   align-items: center;
   justify-content: center;
   width: 90vw;
-  margin: auto;
+  
+  margin: 0 auto 0 10px;
   background-color: #292B32;
 
   h3.title {
