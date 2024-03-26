@@ -20,11 +20,9 @@ body {
   margin: auto;
   overflow: hidden;
   top: 0;
-  right: 10px;
+  right: 5px;
   padding: 1vh 50px;
-  
   background-color: transparent;
-  box-shadow: 1px 1px 1px 1px rgba(225, 225, 225, 0.8);
   
   
   
