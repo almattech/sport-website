@@ -85,7 +85,7 @@ body {
 
 .Sports {
   display: flex;
-  padding-top: 80px;
+  padding-top: 60px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
