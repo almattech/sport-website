@@ -7,7 +7,6 @@ const SwitchToggle = (props) => {
   };
   return (
     <div className="Switch">
-      <span> Theme </span>
       <ReactSwitch onChange={handleTheme} checked={props.name === "dark"} />
     </div>
   );
