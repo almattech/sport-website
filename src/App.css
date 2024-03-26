@@ -20,13 +20,14 @@ body {
   margin: auto;
   overflow: hidden;
   top: 0;
-  padding: 1vh 2vw 50px 2vw;
-  width: 100vw;
-  background-color: white;
+  right: 10px;
+  padding: 1vh 50px;
+  
+  background-color: transparent;
   box-shadow: 1px 1px 1px 1px rgba(225, 225, 225, 0.8);
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  
+  
+  
 }
 
 #light {
