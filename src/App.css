@@ -128,13 +128,14 @@ body {
         background-color: #18191c;
         padding: 2px;
         color: #c8cbd3;
-        margin: auto;
+        margin: auto !important;
 
         .total,
         .sport {
           display: flex;
           flex-direction: column;
           justify-content: center;
+          align-items: center;
           gap: 0;
           padding: 4px;
           font-size: 10px;
