@@ -19,6 +19,7 @@ body {
   position: fixed;
   margin: auto;
   overflow: hidden;
+  top: 0;
   padding: 1vh 50px;
   width: 80vw;
   background-color: white;
