@@ -21,7 +21,7 @@ body {
   overflow: hidden;
   top: 0;
   padding: 1vh 50px;
-  width: 80vw;
+  width: 100vw;
   background-color: white;
   box-shadow: 1px 1px 1px 1px rgba(225, 225, 225, 0.8);
   display: flex;
