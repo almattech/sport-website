@@ -5,25 +5,24 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 
 body {
-  padding: 5%;
+  width: 100vw;
+  height: 100vh;
   font-family: "Inter", sans-serif;
 }
 
 /* STYLESHEETS FOR THE APP COMPONENT */
 
 .App {
-  /*  */
+  width: 100vw;
+  background-color: #292b32;
 }
 
-.Switch{
+.Switch {
   position: fixed;
   overflow: hidden;
   top: 20px;
   right: 20px;
   background-color: transparent;
-  
-  
-  
 }
 
 #light {
@@ -38,6 +37,12 @@ body {
 
     .images {
       background-color: whitesmoke;
+
+      .ad {
+        .ad_word {
+          color: #525965;
+        }
+      }
       .img {
         background-color: white;
 
@@ -74,10 +79,6 @@ body {
   }
 }
 
-#dark {
-  /*  */
-}
-
 /* STYLESHEETS FOR THE SPORTS COMPONENT */
 
 .Sports {
@@ -86,15 +87,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90vw;
+  width: 80vw;
   margin: auto;
   margin-top: 0;
-  background-color: #292B32;
+  background-color: #292b32;
 
   h3.title {
     margin-top: 30px;
     font-size: 2rem;
-    margin-left: 13%;
+    margin-left: -2%;
     border-bottom: 2px solid #738fff;
     width: fit-content;
     padding-bottom: 5px;
@@ -107,12 +108,12 @@ body {
   .images {
     display: flex;
     justify-content: center;
-    width: 73vw;
+    width: 85vw;
     padding-bottom: 20px;
     padding-top: 20px;
 
     .img {
-      width: 18%;
+      width: 25%;
       margin: 0.3%;
       background-color: #313339;
       display: flex;
@@ -172,7 +173,7 @@ body {
     .ad {
       display: flex;
       flex-direction: column;
-      width: 18%;
+      width: 25%;
       cursor: pointer;
 
       img {
@@ -216,7 +217,8 @@ body {
   padding: 10px;
   padding-bottom: 20px;
   margin: auto;
-  background-color: #18282A;
+  background-color: #18282a;
+  width: 82vw;
 
   h1 {
     color: white;
@@ -266,15 +268,15 @@ body {
       align-items: center;
       justify-content: center;
       border: none;
-      border-top: 3px dashed #818A97;
+      border-top: 3px dashed #818a97;
       margin-top: 5px;
-      padding-top: 15px;
+      padding-top: 10px;
       width: 80%;
 
       p:nth-child(1) {
         color: #afb2bc;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
         width: 100%;
         margin: 0;
@@ -283,7 +285,7 @@ body {
 
       p:nth-child(2) {
         color: #9da0a9;
-        font-size: 12px;
+        font-size: 11px;
         margin: 0;
         margin-top: 10px;
         font-family: "Poppins", sans-serif;
@@ -294,7 +296,7 @@ body {
         width: 100%;
         margin: 0;
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 10px;
       }
 
@@ -349,7 +351,7 @@ div.slick-slider.cards.slick-initialized {
 
 p.name {
   color: #c8cbd3;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   padding-left: 10px;
   cursor: pointer;
@@ -361,37 +363,13 @@ p.name {
   .total p,
   .sport p {
     font-size: 9px;
-    p.name {
-      font-size: 9px;
-    }
   }
   .ad_word {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 898px) {
-  p.name {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 848px) {
-  p.name {
-    font-size: 11px;
-    margin: 5px;
-    margin-bottom: 1px;
-  }
-
-  .info {
-    margin: 1px !important;
-  }
-  .ad_word {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 811px) {
   .Sports .images {
     flex-direction: column;
     gap: 30px;
@@ -407,8 +385,25 @@ p.name {
       margin: 10px;
     }
   }
+
+  .ad img {
+    height: 350px !important;
+  }
   .ad_word {
     font-size: 9px;
+  }
+
+  p.name {
+    font-size: 10px;
+    margin: 5px;
+    margin-bottom: 1px;
+  }
+
+  .info {
+    margin: 1px !important;
+  }
+  .ad_word {
+    font-size: 15px;
   }
 }
 
